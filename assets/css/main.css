@@ -553,6 +553,16 @@
     .style3 h3 {
         letter-spacing: 0.05em;
     }
+    
+	.secondary h2 {
+		font-size: 3.25em;
+		line-height: 1.25em;
+	}
+    
+	.secondary h3 {
+		font-size: 1.25em;
+		line-height: 1.25em;
+	}
 
 	@media screen and (max-width: 736px) {
 
@@ -2133,6 +2143,10 @@
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+	}
+    
+	#three {
+		background: url("images/overlay.png"), url("../../images/three.jpg");
 	}
 
 /* Contact */
